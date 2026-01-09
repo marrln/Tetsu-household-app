@@ -55,13 +55,13 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.tetsu.InventoryTopAppBar
+import com.tetsu.TetsuTopAppBar
 import com.tetsu.R
 import com.tetsu.data.Item
 import com.tetsu.ui.AppViewModelProvider
 import com.tetsu.ui.item.formatedPrice
 import com.tetsu.ui.navigation.NavigationDestination
-import com.tetsu.ui.theme.InventoryTheme
+import com.tetsu.ui.theme.TetsuTheme
 
 object HomeDestination : NavigationDestination {
     override val route = "home"
@@ -85,7 +85,7 @@ fun HomeScreen(
     Scaffold(
         modifier = modifier.nestedScroll(scrollBehavior.nestedScrollConnection),
         topBar = {
-            InventoryTopAppBar(
+            TetsuTopAppBar(
                 title = stringResource(HomeDestination.titleRes),
                 canNavigateBack = false,
                 scrollBehavior = scrollBehavior

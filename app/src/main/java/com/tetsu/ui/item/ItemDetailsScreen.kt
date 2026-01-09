@@ -58,12 +58,12 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.tetsu.InventoryTopAppBar
+import com.tetsu.TetsuTopAppBar
 import com.tetsu.R
 import com.tetsu.data.Item
 import com.tetsu.ui.AppViewModelProvider
 import com.tetsu.ui.navigation.NavigationDestination
-import com.tetsu.ui.theme.InventoryTheme
+import com.tetsu.ui.theme.TetsuTheme
 import kotlinx.coroutines.launch
 
 object ItemDetailsDestination : NavigationDestination {
@@ -85,7 +85,7 @@ fun ItemDetailsScreen(
     val coroutineScope = rememberCoroutineScope()
     Scaffold(
         topBar = {
-            InventoryTopAppBar(
+            TetsuTopAppBar(
                 title = stringResource(ItemDetailsDestination.titleRes),
                 canNavigateBack = true,
                 navigateUp = navigateBack
