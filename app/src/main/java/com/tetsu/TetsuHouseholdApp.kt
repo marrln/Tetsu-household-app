@@ -1,8 +1,8 @@
-package com.example.tetsu
+package com.tetsu
 
 import android.app.Application
-import com.example.tetsu.data.AppContainer
-import com.example.tetsu.data.AppDataContainer
+import com.tetsu.data.AppContainer
+import com.tetsu.data.AppDataContainer
 
 class TetsuHouseholdApp : Application() {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.tetsu.ui.item
+package com.tetsu.ui.item
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -41,11 +41,11 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.tetsu.TetsuTopAppBar
-import com.example.tetsu.R
-import com.example.tetsu.ui.AppViewModelProvider
-import com.example.tetsu.ui.navigation.NavigationDestination
-import com.example.tetsu.ui.theme.TetsuTheme
+import com.tetsu.TetsuTopAppBar
+import com.tetsu.R
+import com.tetsu.ui.AppViewModelProvider
+import com.tetsu.ui.navigation.NavigationDestination
+import com.tetsu.ui.theme.TetsuTheme
 import kotlinx.coroutines.launch
 import java.util.Currency
 import java.util.Locale

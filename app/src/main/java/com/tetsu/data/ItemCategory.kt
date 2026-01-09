@@ -18,7 +18,7 @@
  * along with Tetsu.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-package com.example.tetsu.data
+package com.tetsu.data
 
 /**
  * Enum representing different categories of household items

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.tetsu.ui.item
+package com.tetsu.ui.item
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -22,7 +22,7 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.tetsu.data.ItemsRepository
+import com.tetsu.data.ItemsRepository
 import kotlinx.coroutines.flow.filterNotNull
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch

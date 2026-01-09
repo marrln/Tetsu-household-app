@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.tetsu.data
+package com.tetsu.data
 
 import kotlinx.coroutines.flow.Flow
 

@@ -1,4 +1,4 @@
-package com.example.tetsu
+package com.tetsu
 
 import androidx.compose.material.icons.Icons.Filled
 import androidx.compose.material.icons.filled.ArrowBack
@@ -13,8 +13,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
-import com.example.tetsu.R.string
-import com.example.tetsu.ui.navigation.TetsuNavHost
+import com.tetsu.R.string
+import com.tetsu.ui.navigation.TetsuNavHost
 
 /**
  * Top level composable that represents screens for the application.

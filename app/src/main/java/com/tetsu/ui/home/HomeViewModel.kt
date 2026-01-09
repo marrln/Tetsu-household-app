@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.example.tetsu.ui.home
+package com.tetsu.ui.home
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.tetsu.data.Item
-import com.example.tetsu.data.ItemsRepository
+import com.tetsu.data.Item
+import com.tetsu.data.ItemsRepository
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.map

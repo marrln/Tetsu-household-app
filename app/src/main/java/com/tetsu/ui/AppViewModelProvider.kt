@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.tetsu.ui
+package com.tetsu.ui
 
 import android.app.Application
 import androidx.lifecycle.ViewModelProvider.AndroidViewModelFactory
@@ -22,11 +22,11 @@ import androidx.lifecycle.createSavedStateHandle
 import androidx.lifecycle.viewmodel.CreationExtras
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
-import com.example.tetsu.TetsuHouseholdApp
-import com.example.tetsu.ui.home.HomeViewModel
-import com.example.tetsu.ui.item.ItemDetailsViewModel
-import com.example.tetsu.ui.item.ItemEditViewModel
-import com.example.tetsu.ui.item.ItemEntryViewModel
+import com.tetsu.TetsuHouseholdApp
+import com.tetsu.ui.home.HomeViewModel
+import com.tetsu.ui.item.ItemDetailsViewModel
+import com.tetsu.ui.item.ItemEditViewModel
+import com.tetsu.ui.item.ItemEntryViewModel
 
 /**
  * Provides Factory to create instance of ViewModel for the entire Tetsu app

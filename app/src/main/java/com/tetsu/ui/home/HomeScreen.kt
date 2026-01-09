@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.tetsu.ui.home
+package com.tetsu.ui.home
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -55,13 +55,13 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.tetsu.InventoryTopAppBar
-import com.example.tetsu.R
-import com.example.tetsu.data.Item
-import com.example.tetsu.ui.AppViewModelProvider
-import com.example.tetsu.ui.item.formatedPrice
-import com.example.tetsu.ui.navigation.NavigationDestination
-import com.example.tetsu.ui.theme.InventoryTheme
+import com.tetsu.InventoryTopAppBar
+import com.tetsu.R
+import com.tetsu.data.Item
+import com.tetsu.ui.AppViewModelProvider
+import com.tetsu.ui.item.formatedPrice
+import com.tetsu.ui.navigation.NavigationDestination
+import com.tetsu.ui.theme.InventoryTheme
 
 object HomeDestination : NavigationDestination {
     override val route = "home"

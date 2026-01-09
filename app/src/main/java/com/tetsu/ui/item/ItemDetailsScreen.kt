@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.tetsu.ui.item
+package com.tetsu.ui.item
 
 import androidx.annotation.StringRes
 import androidx.compose.foundation.layout.Arrangement
@@ -58,12 +58,12 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.tetsu.InventoryTopAppBar
-import com.example.tetsu.R
-import com.example.tetsu.data.Item
-import com.example.tetsu.ui.AppViewModelProvider
-import com.example.tetsu.ui.navigation.NavigationDestination
-import com.example.tetsu.ui.theme.InventoryTheme
+import com.tetsu.InventoryTopAppBar
+import com.tetsu.R
+import com.tetsu.data.Item
+import com.tetsu.ui.AppViewModelProvider
+import com.tetsu.ui.navigation.NavigationDestination
+import com.tetsu.ui.theme.InventoryTheme
 import kotlinx.coroutines.launch
 
 object ItemDetailsDestination : NavigationDestination {

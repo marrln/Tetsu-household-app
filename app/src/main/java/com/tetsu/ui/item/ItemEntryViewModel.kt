@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.example.tetsu.ui.item
+package com.tetsu.ui.item
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
-import com.example.tetsu.data.Item
-import com.example.tetsu.data.ItemsRepository
+import com.tetsu.data.Item
+import com.tetsu.data.ItemsRepository
 import java.text.NumberFormat
 
 /**

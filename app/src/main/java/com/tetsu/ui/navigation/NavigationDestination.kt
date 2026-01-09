@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.tetsu.ui.navigation
+package com.tetsu.ui.navigation
 
 /**
  * Interface to describe the navigation destinations for the app

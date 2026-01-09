@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.tetsu.ui.navigation
+package com.tetsu.ui.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -23,14 +23,14 @@ import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
-import com.example.tetsu.ui.home.HomeDestination
-import com.example.tetsu.ui.home.HomeScreen
-import com.example.tetsu.ui.item.ItemDetailsDestination
-import com.example.tetsu.ui.item.ItemDetailsScreen
-import com.example.tetsu.ui.item.ItemEditDestination
-import com.example.tetsu.ui.item.ItemEditScreen
-import com.example.tetsu.ui.item.ItemEntryDestination
-import com.example.tetsu.ui.item.ItemEntryScreen
+import com.tetsu.ui.home.HomeDestination
+import com.tetsu.ui.home.HomeScreen
+import com.tetsu.ui.item.ItemDetailsDestination
+import com.tetsu.ui.item.ItemDetailsScreen
+import com.tetsu.ui.item.ItemEditDestination
+import com.tetsu.ui.item.ItemEditScreen
+import com.tetsu.ui.item.ItemEntryDestination
+import com.tetsu.ui.item.ItemEntryScreen
 
 /**
  * Provides Navigation graph for the application.
